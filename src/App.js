@@ -1,12 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
+import Tooltip from './components/Tooltip';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          Manoj K S
-      </header>
+      <Tooltip/>
     </div>
   );
 }
